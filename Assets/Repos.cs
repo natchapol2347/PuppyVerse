@@ -6,14 +6,15 @@ public class Repos : MonoBehaviour
 {
     // Start is called before the first frame update
     Vector3 originalPos;
+    public GameObject player;
  
     void Start()
     {
-        originalPos = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        originalPos = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
     }
 
     public void ButtonClick()
     {
-        gameObject.transform.position = originalPos;
+        player.transform.position = originalPos;
     }
 }
