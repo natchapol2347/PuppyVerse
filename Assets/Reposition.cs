@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Reposition : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class Reposition : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        GameObject.transform.position = new Vector3(514.356, 12.7, 85.803);
+    {   
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
