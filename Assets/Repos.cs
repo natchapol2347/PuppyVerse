@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Repos : MonoBehaviour
 {
@@ -16,5 +17,13 @@ public class Repos : MonoBehaviour
     public void ButtonClick()
     {
         player.transform.position = originalPos;
+    }
+    public void EnterSquid()
+    {
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+    }
+    public void ExitSquid()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
     }
 }
