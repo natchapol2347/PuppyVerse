@@ -7,7 +7,6 @@ TagManager:
   - CinemachineTarget
   - Fire
   - Sword
-  - Ball
   layers:
   - Default
   - TransparentFX
