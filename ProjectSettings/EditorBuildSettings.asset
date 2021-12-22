@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheGlassBridge.unity
     guid: eb9bf896d0157fa45be79749d9a44fb0
+  - enabled: 1
+    path: Assets/Scenes/Steph.unity
+    guid: bd514e12ff418784da3ab35e1c0f29c9
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b47e8e367c8b90542ae8bcf78ecd2605, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 65448acc3922b70469c004e36705d4eb, type: 2}
