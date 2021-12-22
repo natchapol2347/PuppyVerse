@@ -19,6 +19,12 @@ public class Repos : MonoBehaviour
     {
         player.transform.position = originalPos;
     }
+
+    public void onTriggerEnter()
+    {
+        player.transform.position = originalPos;
+    }
+
     public void EnterSquid()
     {
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
