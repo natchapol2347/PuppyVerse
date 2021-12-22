@@ -33,4 +33,9 @@ public class Repos : MonoBehaviour
     {
         SceneManager.LoadScene(SampleScene);
     }
+
+    public void EnterBask(string basketballc)
+    {
+        SceneManager.LoadScene(basketballc);
+    }
 }
