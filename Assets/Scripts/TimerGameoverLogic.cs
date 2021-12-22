@@ -9,7 +9,7 @@ public class TimerGameoverLogic : MonoBehaviour
 
     // Start is called before the first frame update
 
-    int countDownStartValue = 100;
+    int countDownStartValue = 90;
     public TMP_Text timerUI;
     void Start()
     {
