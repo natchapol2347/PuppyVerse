@@ -27,10 +27,10 @@ public class Repos : MonoBehaviour
 
     public void EnterSquid()
     {
-         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+         SceneManager.LoadScene(TheGlassBridge);
     }
     public void ExitSquid()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex -1);
+        SceneManager.LoadScene(SampleScene);
     }
 }
