@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class TimerGameoverLogic : MonoBehaviour
 {
@@ -35,6 +37,7 @@ public class TimerGameoverLogic : MonoBehaviour
         else
         {
             timerUI.text = "GameOver!";
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
     }
 
