@@ -25,9 +25,9 @@ public class Repos : MonoBehaviour
         player.transform.position = originalPos;
     }
 
-    public void EnterSquid(string GlassBridge)
+    public void EnterSquid(string TheGlassBridge)
     {
-         SceneManager.LoadScene(GlassBridge);
+         SceneManager.LoadScene(TheGlassBridge);
     }
     public void ExitSquid(string SampleScene)
     {
@@ -37,5 +37,9 @@ public class Repos : MonoBehaviour
     public void EnterBask(string Steph)
     {
         SceneManager.LoadScene(Steph);
+    }
+    public void EnterBowl(string Bowling)
+    {
+        SceneManager.LoadScene(Bowling);
     }
 }
